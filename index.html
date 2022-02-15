@@ -367,7 +367,7 @@
                     </li>
                 </ul>
             </div>
-           <!-- <div class="footer-subscription">
+           <div class="footer-subscription">
                 <p class="footer-subscription-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
                 <div class="subscription-contaner">
                 <input type="email" class="subscription-input" placeholder="E-mail" >
@@ -375,7 +375,7 @@
                     <use href="./svg/icons.svg#icon-send">
                     </use></svg></button>
                 </div>
-            </div>-->
+            </div>
             </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
@@ -399,7 +399,7 @@
                         </div>
                     </div>
                     <div class="modal-form-feeld">
-                        <label for="user-tel">Телефон</label>
+                        <label for="user-tel" class="modal-label">Телефон</label>
                         <div class="input-wrap">
                             <input 
                             type="tel" 
@@ -412,7 +412,7 @@
                         </div>
                     </div>
                     <div class="modal-form-feeld">
-                        <label for="user-email">Почта</label>
+                        <label for="user-email" class="modal-label">Почта</label>
                         <div class="input-wrap">
                             <input 
                             type="email" 
@@ -424,8 +424,8 @@
                                 </use></svg></svg>
                         </div>
                     </div>
-                    <div class="modal-form-feeld">
-                        <label for="user-text">Комментарий</label>
+                    <div class="modal-form-comment">
+                        <label for="user-text" class="modal-label">Комментарий</label>
                         <textarea 
                         name="user-text" 
                         id="user-text" 
@@ -433,7 +433,7 @@
                         placeholder="Введите текст"
                         ></textarea>
                     </div>
-                    <div class="modal-form-feeld">
+                    <div class="modal-form-comment-text">
                         <input 
                         type="checkbox" 
                         name="policy" 
@@ -443,7 +443,7 @@
                         <label for="modal-check" class="modal-check-text"
                         ><span class=""><svg class="icon-check" width="16" height="15">
                             <use href="./svg/icons.svg#icon-Vector">
-                            </use></svg></svg></span>Соглашаюсь с рассылкой и принимаю <p class="usage-policy" href=""> Условия договора</p></label>
+                            </use></svg></svg></span>Соглашаюсь с рассылкой и принимаю <a class="usage-policy" href=""> Условия договора</a></label>
                     </div>
                     <button type="submit" class="modal-button">Отправить</button>
             </form>
